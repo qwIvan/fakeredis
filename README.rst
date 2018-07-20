@@ -282,6 +282,17 @@ they have all been tagged as 'slow' so you can skip them by running::
 Revision history
 ================
 
+0.11.0
+------
+- `#194 <https://github.com/jamesls/fakeredis/pull/194>`_ Support ``score_cast_func`` in zset functions
+- `#192 <https://github.com/jamesls/fakeredis/pull/192>`_ Make ``__getitem__`` raise a KeyError for missing keys
+
+0.10.3
+------
+This is a minor bug-fix release.
+
+- `#189 <https://github.com/jamesls/fakeredis/pull/189>`_ Add 'System' to the list of libc equivalents
+
 0.10.2
 ------
 This is a bug-fix release.
